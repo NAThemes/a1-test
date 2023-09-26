@@ -5,7 +5,7 @@
 <template>
   <header class="header">
     <div class="header__logo">
-      <img src="~@/assets/images/logo.svg" alt="logo">
+      <img src="~@/assets/images/logo.png" alt="logo">
     </div>
     <div class="header__main">
       <div class="header__maf maf_left">
@@ -61,10 +61,10 @@
     &__logo{
       position: relative;
       margin: 0 auto 0 auto;
-      cursor: pointer;
       z-index: 15;
       text-align: center;
       img{
+        cursor: pointer;
         width: 200px;
         @media screen and (max-width: 450px) {
           width: 150px;

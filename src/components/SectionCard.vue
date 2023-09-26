@@ -129,7 +129,7 @@ import CardTable from "@/components/CardTable.vue";
       }
       @media screen and (max-width: 475px){
         padding: 3px 7px;
-        max-width: 75px;
+        max-width: 80px;
         font-size: 10px;
         line-height: 12px;
         text-align: right;
@@ -145,7 +145,7 @@ import CardTable from "@/components/CardTable.vue";
       }
       @media screen and (max-width: 475px){
         min-height: 425px;
-        background: url("@/assets/images/box.png") -50% 0 no-repeat;
+        background: url("@/assets/images/box.png") 3rem 0 no-repeat;
       }
     }
     &__box-inner{

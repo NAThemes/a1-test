@@ -50,7 +50,7 @@ const items = computed(() => store.state.items);
         grid-template-columns: 65px auto 80px 90px;
       }
       @media screen and (max-width: 475px){
-        gap: 10px;
+        gap: 5px;
         grid-template-columns: 60px auto 60px 60px;
       }
     }
@@ -66,8 +66,16 @@ const items = computed(() => store.state.items);
       text-align: left;
       color: #ffffff;
       @media screen and (max-width: 475px){
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+    &__img{
+      img{
+        display: block;
+        @media screen and (max-width: 475px){
+          width: 50px;
+        }
       }
     }
     &__description{
